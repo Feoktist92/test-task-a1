@@ -1,0 +1,24 @@
+{
+    "name": "test-task",
+    "version": "1.0.0",
+    "description": "Тестовое задание на вакансию в Astrum Entertainment",
+    "scripts": {
+        "dev": "parcel index.html --open",
+        "build": "rm -rf build && parcel build index.html --dist-dir build"
+    },
+    "author": "Igor Feoktistov",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^10.4.2",
+        "parcel": "^2.2.1",
+        "postcss-modules": "^4.3.0",
+        "sass": "^1.26.5"
+    },
+    "browserslist": [
+        "last 2 version",
+        "ie 11"
+    ],
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.2.1"
+    }
+}
