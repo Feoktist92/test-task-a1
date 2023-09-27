@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 header {
-    background: url('./../img/фон.png') center/cover no-repeat;
+    background: url('./../img/header-bg.png') center/cover no-repeat;
     min-height: 892px;
     overflow: hidden;
 }
